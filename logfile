@@ -1,0 +1,20 @@
+2023-05-13T19:58:02.577+05:30  INFO 19472 --- [main] c.b.user.UserApplication1Application     : Starting UserApplication1Application using Java 17.0.5 with PID 19472 (C:\Users\Rukmini Jadhav\Documents\workspace-spring-tool-suite-4-4.17.0.RELEASE\User_application-1\target\classes started by Rukmini Jadhav in C:\Users\Rukmini Jadhav\Documents\workspace-spring-tool-suite-4-4.17.0.RELEASE\User_application-1)
+2023-05-13T19:58:02.584+05:30  INFO 19472 --- [main] c.b.user.UserApplication1Application     : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T19:58:03.432+05:30  INFO 19472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T19:58:03.511+05:30  INFO 19472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2023-05-13T19:58:04.000+05:30  INFO 19472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-05-13T19:58:04.011+05:30  INFO 19472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T19:58:04.011+05:30  INFO 19472 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-13T19:58:04.172+05:30  INFO 19472 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T19:58:04.173+05:30  INFO 19472 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1520 ms
+2023-05-13T19:58:04.353+05:30  INFO 19472 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T19:58:04.421+05:30  INFO 19472 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-05-13T19:58:04.600+05:30  WARN 19472 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-05-13T19:58:04.739+05:30  INFO 19472 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T19:58:05.113+05:30  INFO 19472 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f5e6833
+2023-05-13T19:58:05.116+05:30  INFO 19472 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T19:58:05.140+05:30  INFO 19472 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-13T19:58:05.141+05:30  WARN 19472 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-13T19:58:06.048+05:30  INFO 19472 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T19:58:06.061+05:30  INFO 19472 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T19:58:06.463+05:30  WARN 19472 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
